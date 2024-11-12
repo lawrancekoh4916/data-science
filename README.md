@@ -24,7 +24,7 @@ A comprehensive analysis of the COVID-19 pandemic using data from "Our World in 
   - Data cleaning and preprocessing
   - Time-based aggregations
 
-[View Project](./COVID-19%20Analysis/01_covid19_global_analysis.ipynb)
+[View Project](./01_covid19_analysis/01_covid19_global_analysis.ipynb)
 
 ### 2. Titanic Survival Analysis
 An exploratory data analysis of the famous Titanic dataset, investigating factors that influenced passenger survival. Key analyses include:
@@ -48,7 +48,28 @@ An exploratory data analysis of the famous Titanic dataset, investigating factor
   - Family size influence on survival chances
   - Port of embarkation survival patterns
 
-[View Project](./Titanic%20EDA/02_titanic_survival_analysis.ipynb)
+[View Project](./02_titanic_analysis/02_titanic_survival_analysis.ipynb)
+
+### 3. Titanic Data Visualizations
+A comprehensive visualization study of the Titanic dataset, focusing on different aspects of passenger demographics and their relationships. Features include:
+
+- **Survival Analysis Visualizations**:
+  - Distribution of survivors vs non-survivors
+  - Class-wise passenger distribution
+  - Age distribution analysis
+- **Passenger Demographics Visualization**:
+  - Age distribution through histograms
+  - Class distribution analysis
+  - Fare distribution through box plots
+- **Correlation Analysis**:
+  - Heatmap of numerical variables
+  - Relationship between age and passenger class
+- **Technical Implementation**:
+  - Seaborn for statistical visualizations
+  - Matplotlib for custom plots
+  - NumPy and Pandas for data handling
+
+[View Project](./02_titanic_analysis/03_titanic_visualisations.ipynb)
 
 ## Technical Skills Demonstrated
 
@@ -81,12 +102,16 @@ An exploratory data analysis of the famous Titanic dataset, investigating factor
   - Filtered data exploration
 
 ## Repository Structure
-├── COVID-19 Analysis/
-│   ├── 01_covid19_global_analysis.ipynb
-│   └── datasets/
-├── Titanic EDA/
+├── datasets/
+│   ├── covid19/
+│   │   └── raw_data.csv
+│   └── titanic/
+│       └── passenger_data.csv
+├── 01_covid19_analysis/
+│   └── 01_covid19_global_analysis.ipynb
+├── 02_titanic_analysis/
 │   ├── 02_titanic_survival_analysis.ipynb
-│   └── datasets/
+│   └── 03_titanic_visualisations.ipynb
 ├── LICENSE
 └── README.md
 
