@@ -111,7 +111,6 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 ## Contact & Connect
 Feel free to reach out if you have any questions about my projects or would like to collaborate:
-
 - LinkedIn: https://www.linkedin.com/in/lawrancekoh/
 - Email: lawrancekoh@gmail.com
 
