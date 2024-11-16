@@ -110,6 +110,25 @@ This project involves analyzing transaction data to segment customers based on R
 
 [View Project](./05_customer_segmentation/05_customer_segmentation.ipynb)
 
+### 6. Fake News Detection
+This project focuses on detecting fake news using Natural Language Processing (NLP) techniques. Key features include:
+
+- **Data Description**:
+  - The dataset includes text data from social media and news platforms, along with content tags and labels indicating the truthfulness of the content.
+  - Labels are categorized as: Half-True, False, Mostly-True, True, Barely-True, and Not-Known.
+- **Data Preprocessing**:
+  - Handling missing values in the dataset.
+  - Reclassification of labels into binary categories: Fake News (1) and Real News (0).
+- **Modeling**:
+  - Utilizes various machine learning models such as Logistic Regression, Naive Bayes, Random Forest, and Gradient Boosting.
+  - Implements a Stacking Classifier to combine the predictions of multiple models for improved accuracy.
+- **Evaluation**:
+  - The models are evaluated based on metrics like Accuracy, Precision, Recall, and ROC_AUC.
+  - The Stacking Classifier is used to make final predictions on the test set.
+- **Visualization**:
+  - The distribution of predictions is visualized to understand the model's performance.
+
+[View Project](./06_fake_news_detection/06_fake_news_detection.ipynb)
 
 ## Technical Skills Demonstrated
 
@@ -123,27 +142,38 @@ This project involves analyzing transaction data to segment customers based on R
 - Custom formatting and styling for better data presentation
 
 ### Data Science Techniques
-- Exploratory Data Analysis (EDA)
-- Data Cleaning & Preprocessing
+- **Exploratory Data Analysis (EDA)**
+- **Data Cleaning & Preprocessing**
   - Missing value handling
   - Duplicate removal
   - Data type conversions
-- Time Series Analysis
+- **Time Series Analysis**:
   - Trend analysis
   - Monthly/Yearly aggregations
   - Rolling averages
-- Statistical Analysis
+- **Statistical Analysis**:
   - Distribution analysis
   - Rate calculations
   - Demographic analysis
   - Survival rate analysis
-- Interactive Analysis
+- **Interactive Analysis**:
   - User-input based visualizations
   - Dynamic metric selection
   - Filtered data exploration
-- Natural Language Processing
+- **Machine Learning Techniques**:
+  - Implementation of classification algorithms such as Logistic Regression, Naive Bayes, Random Forest, and Gradient Boosting.
+  - Use of a Stacking Classifier to improve model performance by combining multiple models.
+- **Model Evaluation**:
+  - Evaluation of models using metrics like Accuracy, Precision, Recall, and ROC_AUC.
+  - Visualization of model performance through confusion matrices and distribution plots.
+- **Data Handling**:
+  - Handling of imbalanced datasets by reclassifying labels into binary categories.
+  - Use of text vectorization techniques such as CountVectorizer and TfidfVectorizer for feature extraction.
+- **Natural Language Processing (NLP)**:
   - Text summarization
   - Tokenization and text cleaning
+  - Text preprocessing including handling missing values and reclassification of text labels.
+  - Application of NLP techniques to detect fake news content.
 
 ## Repository Structure
 ├── datasets/
@@ -162,6 +192,8 @@ This project involves analyzing transaction data to segment customers based on R
 │   └── 04_hotel_sentiment_analysis.ipynb
 ├── 05_customer_segmentation/
 │   └── 05_customer_segmentation.ipynb
+├── 06_fake_news_detection/
+│   └── 06_fake_news_detection.ipynb
 ├── LICENSE
 └── README.md
 
