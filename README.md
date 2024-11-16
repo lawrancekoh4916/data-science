@@ -24,9 +24,9 @@ A comprehensive analysis of the COVID-19 pandemic using data from "Our World in 
   - Data cleaning and preprocessing
   - Time-based aggregations
 
-[View Project](./01_covid19_analysis/01_covid19_global_analysis.ipynb)
+[View Project](./COVID-19_analysis/01_covid19_global_analysis.ipynb)
 
-### 2. Titanic Survival Analysis
+### 2-1. Titanic Survival Analysis
 An exploratory data analysis of the famous Titanic dataset, investigating factors that influenced passenger survival. Key analyses include:
 
 - **Data Cleaning & Preprocessing**:
@@ -48,9 +48,9 @@ An exploratory data analysis of the famous Titanic dataset, investigating factor
   - Family size influence on survival chances
   - Port of embarkation survival patterns
 
-[View Project](./02_titanic_analysis/02_titanic_survival_analysis.ipynb)
+[View Project](./Titanic%20EDA/02-1_titanic_survival_analysis.ipynb)
 
-### 3. Titanic Data Visualizations
+### 2-2. Titanic Data Visualizations
 A comprehensive visualization study of the Titanic dataset, focusing on different aspects of passenger demographics and their relationships. Features include:
 
 - **Survival Analysis Visualizations**:
@@ -69,7 +69,20 @@ A comprehensive visualization study of the Titanic dataset, focusing on differen
   - Matplotlib for custom plots
   - NumPy and Pandas for data handling
 
-[View Project](./02_titanic_analysis/03_titanic_visualisations.ipynb)
+[View Project](./02_titanic_analysis/02-2_titanic_visualisations.ipynb)
+
+### 3. Text Summarization
+A simple project demonstrating text summarization techniques. This project showcases:
+
+- **Natural Language Processing (NLP)**:
+  - Text preprocessing and tokenization
+  - Frequency-based summarization
+  - Implementation of basic NLP techniques
+- **Data Handling**:
+  - Text data cleaning and preparation
+  - Handling of large text datasets
+
+[View Project](./03_text_summarization/03_text_summarization.ipynb)
 
 ## Technical Skills Demonstrated
 
@@ -79,6 +92,7 @@ A comprehensive visualization study of the Titanic dataset, focusing on differen
 - Data Manipulation: Pandas
 - Visualization: Matplotlib, Seaborn
 - Data Processing: NumPy
+- Natural Language Processing: NLTK or similar libraries
 - Custom formatting and styling for better data presentation
 
 ### Data Science Techniques
@@ -100,6 +114,9 @@ A comprehensive visualization study of the Titanic dataset, focusing on differen
   - User-input based visualizations
   - Dynamic metric selection
   - Filtered data exploration
+- Natural Language Processing
+  - Text summarization
+  - Tokenization and text cleaning
 
 ## Repository Structure
 ├── datasets/
@@ -112,6 +129,8 @@ A comprehensive visualization study of the Titanic dataset, focusing on differen
 ├── 02_titanic_analysis/
 │   ├── 02_titanic_survival_analysis.ipynb
 │   └── 03_titanic_visualisations.ipynb
+├── 03_text_summarization/
+│   └── 03_text_summarization.ipynb
 ├── LICENSE
 └── README.md
 
@@ -137,7 +156,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 ## Contact & Connect
 Feel free to reach out if you have any questions about my projects or would like to collaborate:
 - LinkedIn: https://www.linkedin.com/in/lawrancekoh/
-- Email: lawrancekoh@gmail.com
+- Email: lawrancekoh@outlook.com
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
