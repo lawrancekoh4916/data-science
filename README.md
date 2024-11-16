@@ -1,7 +1,7 @@
 # Data Science Portfolio
 
 ## Overview
-Welcome to my data science portfolio. This repository showcases my expertise in data analysis, visualization, and machine learning through seven diverse real-world projects. The projects range from analyzing global COVID-19 data and predicting Titanic survival rates to implementing text summarization, sentiment analysis, customer segmentation, fake news detection, and AI-augmented project management. Each project demonstrates my proficiency in Python and essential data science libraries including pandas, scikit-learn, NLTK, TensorFlow and more, while solving complex analytical challenges using techniques like statistical analysis, machine learning, natural language processing, and interactive visualizations.
+Welcome to my data science portfolio. This repository showcases my expertise in data analysis, visualization, and machine learning through seven diverse real-world projects. The projects range from analyzing global COVID-19 data and predicting Titanic survival rates to implementing text summarization, sentiment analysis, customer segmentation, fake news detection, and AI-augmented project management. Each project demonstrates my proficiency in Python and essential data science libraries including pandas, scikit-learn, NLTK, TensorFlow and more, while solving complex analytical challenges using techniques like statistical analysis, machine learning, natural language processing, and visualizations.
 
 ## Projects
 
@@ -208,14 +208,14 @@ This capstone project leverages AI and machine learning to enhance project manag
 │   ├── 03_text_summarization/
 │   │   └── articles.csv
 │   ├── 04_hotel_sentiment/
-│   │   └── reviews.csv
+│   │   └── ReviewProSentiment Data.xlsx
 │   ├── 05_customer_segmentation/
-│   │   └── customer_data.csv
+│   │   └── Trx Data.csv
 │   ├── 06_fake_news_detection/
 │   │   ├── Train.csv
 │   │   └── Test.csv
 │   └── 07_project_management/
-│       └── project_data.csv
+│       └── capstone_raw.xlsx
 ├── 01_covid19_analysis/
 │   └── 01_covid19_global_analysis.ipynb
 ├── 02_titanic_analysis/
