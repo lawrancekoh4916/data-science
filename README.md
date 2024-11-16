@@ -130,6 +130,25 @@ This project focuses on detecting fake news using Natural Language Processing (N
 
 [View Project](./06_fake_news_detection/06_fake_news_detection.ipynb)
 
+### 7. AI-Augmented Project Management
+This capstone project leverages AI and machine learning to enhance project management processes. Key features include:
+
+- **Data Import and Setup**: Utilizes libraries such as `pandas`, `numpy`, `scipy`, and `matplotlib` for data manipulation and visualization.
+- **Data Loading**: Reads project task data from an Excel file, including task descriptions and associated labels.
+- **Text Preprocessing**:
+  - Cleaning and tokenization of text data using regular expressions and NLP libraries like `spacy`.
+  - Lemmatization and removal of stop words to prepare text for analysis.
+- **Modeling**:
+  - Implementation of machine learning models such as Naive Bayes, Random Forest, and Gradient Boosting for task classification.
+  - Use of a Stacking Classifier to improve model performance by combining multiple models.
+- **Evaluation**:
+  - Models are evaluated using metrics like Accuracy and F1 Score.
+  - Visualization of model performance through confusion matrices.
+- **Visualization**:
+  - Distribution of task labels is visualized to understand the dataset.
+
+[View Project](./07_ai_augmented_project_management/07_ai_augmented_project_management.ipynb)
+
 ## Technical Skills Demonstrated
 
 ### Programming & Tools
@@ -138,7 +157,7 @@ This project focuses on detecting fake news using Natural Language Processing (N
 - Data Manipulation: Pandas
 - Visualization: Matplotlib, Seaborn
 - Data Processing: NumPy
-- Natural Language Processing: NLTK or similar libraries
+- Natural Language Processing: NLTK, Spacy
 - Custom formatting and styling for better data presentation
 
 ### Data Science Techniques
@@ -177,10 +196,21 @@ This project focuses on detecting fake news using Natural Language Processing (N
 
 ## Repository Structure
 ├── datasets/
-│   ├── covid19/
+│   ├── 01_covid19/
 │   │   └── raw_data.csv
-│   └── titanic/
-│       └── passenger_data.csv
+│   ├── 02_titanic/
+│   │   └── passenger_data.csv
+│   ├── 03_text_summarization/
+│   │   └── articles.csv
+│   ├── 04_hotel_sentiment/
+│   │   └── reviews.csv
+│   ├── 05_customer_segmentation/
+│   │   └── customer_data.csv
+│   ├── 06_fake_news_detection/
+│   │   ├── Train.csv
+│   │   └── Test.csv
+│   └── 07_project_management/
+│       └── project_data.csv
 ├── 01_covid19_analysis/
 │   └── 01_covid19_global_analysis.ipynb
 ├── 02_titanic_analysis/
@@ -194,6 +224,8 @@ This project focuses on detecting fake news using Natural Language Processing (N
 │   └── 05_customer_segmentation.ipynb
 ├── 06_fake_news_detection/
 │   └── 06_fake_news_detection.ipynb
+├── 07_ai_augmented_project_management/
+│   └── 07_ai_augmented_project_management.ipynb
 ├── LICENSE
 └── README.md
 
