@@ -1,7 +1,7 @@
 # Data Science Portfolio
 
 ## Overview
-Welcome to my data science portfolio. This repository showcases my expertise in data analysis, visualization, and machine learning through various real-world projects. Each project demonstrates my proficiency in Python and essential data science libraries while solving complex analytical challenges.
+Welcome to my data science portfolio. This repository showcases my expertise in data analysis, visualization, and machine learning through seven diverse real-world projects. The projects range from analyzing global COVID-19 data and predicting Titanic survival rates to implementing text summarization, sentiment analysis, customer segmentation, fake news detection, and AI-augmented project management. Each project demonstrates my proficiency in Python and essential data science libraries including pandas, scikit-learn, NLTK, TensorFlow and more, while solving complex analytical challenges using techniques like statistical analysis, machine learning, natural language processing, and interactive visualizations.
 
 ## Projects
 
@@ -152,13 +152,18 @@ This capstone project leverages AI and machine learning to enhance project manag
 ## Technical Skills Demonstrated
 
 ### Programming & Tools
-- Python
-- Jupyter Notebooks
-- Data Manipulation: Pandas
-- Visualization: Matplotlib, Seaborn
-- Data Processing: NumPy
-- Natural Language Processing: NLTK, Spacy
-- Custom formatting and styling for better data presentation
+- Python (3.8+)
+- Jupyter Notebooks/JupyterLab
+- Data Manipulation: Pandas, Polars
+- Visualization: Matplotlib, Seaborn, Plotly
+- Data Processing: NumPy, SciPy
+- Machine Learning: Scikit-learn, XGBoost, LightGBM
+- Natural Language Processing: NLTK, Spacy, Transformers
+- Deep Learning: PyTorch, TensorFlow
+- Version Control: Git
+- Development Environment: VSCode with Python extensions
+- Package Management: pip, conda
+- Custom formatting and styling libraries: nbformat, ipywidgets
 
 ### Data Science Techniques
 - **Exploratory Data Analysis (EDA)**
@@ -229,16 +234,6 @@ This capstone project leverages AI and machine learning to enhance project manag
 ├── LICENSE
 └── README.md
 
-## Getting Started
-1. Clone the repository:
-bash
-git clone https://github.com/yourusername/data-science-portfolio.git
-
-2. Install required dependencies:
-bash
-pip install pandas numpy matplotlib seaborn jupyter
-
-3. Navigate to specific project directories and open the Jupyter notebooks to view the analysis.
 
 ## Dependencies
 - Python 3.x
@@ -247,6 +242,14 @@ pip install pandas numpy matplotlib seaborn jupyter
 - Matplotlib
 - Seaborn
 - Jupyter
+- Scikit-learn
+- NLTK
+- TensorFlow
+- Keras
+- Transformers
+- Plotly
+- Wordcloud
+- Spacy
 
 ## Contact & Connect
 Feel free to reach out if you have any questions about my projects or would like to collaborate:
