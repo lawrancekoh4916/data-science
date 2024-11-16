@@ -24,7 +24,7 @@ A comprehensive analysis of the COVID-19 pandemic using data from "Our World in 
   - Data cleaning and preprocessing
   - Time-based aggregations
 
-[View Project](./COVID-19_analysis/01_covid19_global_analysis.ipynb)
+[View Project](./01_covid19_analysis/01_covid19_global_analysis.ipynb)
 
 ### 2-1. Titanic Survival Analysis
 An exploratory data analysis of the famous Titanic dataset, investigating factors that influenced passenger survival. Key analyses include:
@@ -48,7 +48,7 @@ An exploratory data analysis of the famous Titanic dataset, investigating factor
   - Family size influence on survival chances
   - Port of embarkation survival patterns
 
-[View Project](./Titanic%20EDA/02-1_titanic_survival_analysis.ipynb)
+[View Project](./02_titanic_analysis/02-1_titanic_survival_analysis.ipynb)
 
 ### 2-2. Titanic Data Visualizations
 A comprehensive visualization study of the Titanic dataset, focusing on different aspects of passenger demographics and their relationships. Features include:
