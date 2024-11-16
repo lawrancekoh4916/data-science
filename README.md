@@ -84,6 +84,19 @@ A simple project demonstrating text summarization techniques. This project showc
 
 [View Project](./03_text_summarization/03_text_summarization.ipynb)
 
+### 4. Hotel Sentiment Analysis
+An analysis of hotel reviews to understand sentiment trends and correlations between different aspects of hotel services and overall guest satisfaction. This project includes:
+
+- **Data Import and Setup**: Utilizes libraries such as `pandas`, `numpy`, `scipy`, and `matplotlib` for data manipulation and visualization.
+- **Data Loading**: Reads hotel review data from an Excel file, including sentiment scores and star ratings.
+- **Data Analysis**:
+  - Sentiment Analysis: Calculates sentiment scores for hotel aspects like room, service, location, food, and value.
+  - Correlation Analysis: Examines the relationship between overall guest satisfaction (GRI) and specific sentiments for different star categories.
+  - Visualization: Includes code for visualizing data trends and correlations.
+- **Statistical Testing**: Uses Pearson correlation tests to determine dependencies between overall satisfaction and specific sentiment scores.
+
+[View Project](./04_hotel_sentiment_analysis/04_hotel_sentiment_analysis.ipynb)
+
 ## Technical Skills Demonstrated
 
 ### Programming & Tools
@@ -131,6 +144,8 @@ A simple project demonstrating text summarization techniques. This project showc
 │   └── 03_titanic_visualisations.ipynb
 ├── 03_text_summarization/
 │   └── 03_text_summarization.ipynb
+├── 04_hotel_sentiment_analysis/
+│   └── 04_hotel_sentiment_analysis.ipynb
 ├── LICENSE
 └── README.md
 
