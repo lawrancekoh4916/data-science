@@ -97,6 +97,20 @@ An analysis of hotel reviews to understand sentiment trends and correlations bet
 
 [View Project](./04_hotel_sentiment_analysis/04_hotel_sentiment_analysis.ipynb)
 
+### 5. Customer Segmentation using RFM Analysis
+This project involves analyzing transaction data to segment customers based on Recency, Frequency, and Monetary Value (RFM) metrics. Key features include:
+
+- **Data Import and Setup**: Utilizes libraries such as `pandas`, `numpy`, `scipy`, and `matplotlib` for data manipulation and visualization.
+- **Data Loading**: Reads transaction data from a CSV file, including transaction dates and amounts.
+- **RFM Analysis**:
+  - Calculation of Recency, Frequency, and Monetary Value for each customer.
+  - Segmentation of customers into quantiles for scoring.
+  - Grouping customers by RFM scores to identify most valuable, loyal, and at-risk customers.
+- **Visualization**: Plots distributions of RFM metrics and customer segments.
+
+[View Project](./05_customer_segmentation/05_customer_segmentation.ipynb)
+
+
 ## Technical Skills Demonstrated
 
 ### Programming & Tools
@@ -146,6 +160,8 @@ An analysis of hotel reviews to understand sentiment trends and correlations bet
 │   └── 03_text_summarization.ipynb
 ├── 04_hotel_sentiment_analysis/
 │   └── 04_hotel_sentiment_analysis.ipynb
+├── 05_customer_segmentation/
+│   └── 05_customer_segmentation.ipynb
 ├── LICENSE
 └── README.md
 
