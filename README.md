@@ -95,7 +95,7 @@ An analysis of hotel reviews to understand sentiment trends and correlations bet
   - Visualization: Includes code for visualizing data trends and correlations.
 - **Statistical Testing**: Uses Pearson correlation tests to determine dependencies between overall satisfaction and specific sentiment scores.
 
-[View Project](./04_hotel_sentiment_analysis/04_hotel_sentiment_analysis.ipynb)
+[View Project](./04_sentiment_analysis/04_sentiment_analysis.ipynb)
 
 ### 5. Customer Segmentation using RFM Analysis
 This project involves analyzing transaction data to segment customers based on Recency, Frequency, and Monetary Value (RFM) metrics. Key features include:
@@ -147,7 +147,7 @@ This capstone project leverages AI and machine learning to enhance project manag
 - **Visualization**:
   - Distribution of task labels is visualized to understand the dataset.
 
-[View Project](./07_ai_augmented_project_management/07_ai_augmented_project_management.ipynb)
+[View Project](./07_augmented_project_management/07_augmented_project_management.ipynb)
 
 ## Technical Skills Demonstrated
 
@@ -223,14 +223,14 @@ This capstone project leverages AI and machine learning to enhance project manag
 │   └── 03_titanic_visualisations.ipynb
 ├── 03_text_summarization/
 │   └── 03_text_summarization.ipynb
-├── 04_hotel_sentiment_analysis/
-│   └── 04_hotel_sentiment_analysis.ipynb
+├── 04_sentiment_analysis/
+│   └── 04_sentiment_analysis.ipynb
 ├── 05_customer_segmentation/
 │   └── 05_customer_segmentation.ipynb
 ├── 06_fake_news_detection/
 │   └── 06_fake_news_detection.ipynb
-├── 07_ai_augmented_project_management/
-│   └── 07_ai_augmented_project_management.ipynb
+├── 07_augmented_project_management/
+│   └── 07_augmented_project_management.ipynb
 ├── LICENSE
 └── README.md
 
